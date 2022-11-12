@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ce7c68c-249b-466d-88e0-f8e5edbb8fa7" name="Changes" comment="10.11.2022: Fixed errors" />
+    <list default="true" id="2ce7c68c-249b-466d-88e0-f8e5edbb8fa7" name="Changes" comment="12.11.2022: Fixed errors" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -229,8 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668230820078</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="12.11.2022: Fixed errors">
+      <created>1668232263004</created>
       <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1668232263004</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -264,6 +270,7 @@
     <MESSAGE value="09.11.2022" />
     <MESSAGE value="Fixed errors" />
     <MESSAGE value="10.11.2022: Fixed errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.11.2022: Fixed errors" />
+    <MESSAGE value="12.11.2022: Fixed errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.11.2022: Fixed errors" />
   </component>
 </project>
