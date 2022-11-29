@@ -18,8 +18,12 @@ import java.util.concurrent.ExecutionException;
 public class Controller
 {
     public CompletableFuture<List<Place>> findPlaces(String text) throws ExecutionException, InterruptedException, IOException {
+        if(text.contains(" "))
+        {
+            text = text.replace(" ", "");
+        }
+        
         HttpClient client = HttpClient.newHttpClient();
-
 
         Properties properties = new Properties();
         properties.load(Thread.currentThread().getContextClassLoader().getResourceAsStream("keys.properties"));
