@@ -85,7 +85,7 @@ public class UI
             if(e.getValueIsAdjusting())
             {
                 String lat, lng, place;
-                int index = e.getLastIndex();
+                int index = placeJList.getSelectedIndex();//e.getLastIndex();
 
                 lat = placeList.get(index).getLat();
                 lng = placeList.get(index).getLng();
@@ -119,7 +119,7 @@ public class UI
         interestingPlacesJList.addListSelectionListener(e -> {
             if(e.getValueIsAdjusting())
             {
-                int index = e.getLastIndex();
+                int index = interestingPlacesJList.getSelectedIndex();//e.getLastIndex();
 
                 String id = interestingPlacesList.get(index).getId();
                 id = id.substring(1, id.length()-1);
