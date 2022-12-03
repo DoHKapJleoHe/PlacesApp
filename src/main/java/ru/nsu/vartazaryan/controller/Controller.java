@@ -20,7 +20,7 @@ public class Controller
     public CompletableFuture<List<Place>> findPlaces(String text) throws ExecutionException, InterruptedException, IOException {
         if(text.contains(" "))
         {
-            text = text.replace(" ", "");
+            text = text.replace(" ", "%20");
         }
         
         HttpClient client = HttpClient.newHttpClient();
